@@ -3,7 +3,7 @@ System Administration Commands
 
 
 Important System Directories
-
+ <details>
 ## DIRECTORIES ##
 cat      /etc/hostname                       # Instance's hostname
 cat      /etc/nsswitch.conf                  # List of Databases: 'passwd', 'hosts', and sources for those DBs
@@ -107,3 +107,4 @@ cat      ~/.ssh/id_rsa.pub                   # Example of ssh public key
 cp       ~/.ssh/authorized_keys              # Configures permanent access using SSH keys - copy .pub keys here
 cat      /etc/ssh/ssh_known_hosts            # Systemwide list of known host keys.
 cat      ~/.ssh/known_hosts                  # list of host keys for user not already in the systemwide list
+<summary>
